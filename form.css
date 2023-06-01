@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    list-style: none;   
+    text-decoration: none;
+}
+body{
+    background-image: url(img/gradientenuvem.jpg);
+    background-size: 100%;
+}
+nav ul{ 
+    display: flex;
+    justify-content: space-around; 
+    list-style-type:none; 
+    padding: 16px ;} 
+
+nav a:hover{
+    color: rgb(139, 87, 163);
+}
+
+a{ 
+    color: white;
+    text-decoration: none;}
+
+
+   
+   h1{color: rgb(139, 87, 163);
+   text-align: center;}
+   
+   h2{text-align: center;}
+
+ul{
+    list-style-type:none;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+main{
+    padding-top: 50px;
+    
+}
+main ul{
+    padding-top: 40px ;
+   
+}
+
+main ul{
+    color: white;
+
+}
+nav{
+    
+    width: 100%;
+    background-image: url(img/gradientenuvem.jpg);
+    background-size: 33%;
+    border-color: rgb(222, 161, 222);
+    border: 2px;
+    border-radius: 30px;
+    
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    list-style: none;   
+    text-decoration: none;
+}
+body{
+    background-image: url(img/gradientenuvem.jpg);
+    background-size: 100%;
+}
+nav ul{ 
+    display: flex;
+    justify-content: space-around; 
+    list-style-type:none; 
+    padding: 16px;
+}
+
+
+a{ 
+    color: white;
+    text-decoration: none;}
+
+header img{
+    width: 170px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+nav a:hover{
+    color: rgb(139, 87, 163);
+}
+
+.center{
+    text-align: center;
+    padding: 60px 20px;
+}
+   
+h1{
+    color: rgb(139, 87, 163);
+    text-align: center;
+    padding: 10px;
+}
+   
+h2{
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;} 
+    
+footer a{
+    margin: 20px;
+    text-align: center;}
+    
+footer p:hover{
+     color: rgb(139, 87, 163);
+}
+    
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 0px 50px;
+
+}
+
+nav{
+    
+    width: 100%;
+    background-image: url(img/gradientenuvem.jpg);
+    background-size: 33%;
+    border-color: rgb(222, 161, 222);
+    border: 2px;
+    border-radius: 30px;
+    
+}
+
+section ul{
+    color: white;
+
+}
+p{
+    color: white;
+}
